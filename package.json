@@ -1,0 +1,21 @@
+{
+  "name": "arp-functions",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Monorepo lambda functions Academy Resources Planning",
+  "license": "ISC",
+  "author": "Luis Jose Quiroz Ramos",
+  "workspaces": [
+    "lambdas/*",
+    "shared/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "esbuild": "^0.18.0",
+    "aws-lambda": "^1.0.7",
+    "@aws-sdk/client-cognito-identity-provider": "^3.716.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/aws-lambda": "^8.10.146",
+    "@types/node": "^22.10.2"
+  }
+}

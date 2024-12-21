@@ -1,0 +1,234 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "fetch-users-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:fetch-users-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/fetch-users-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-19T01:20:37.914+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "USERS_TABLE": "users-arp",
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "abfaab46-c5d3-4508-8922-4df090074695",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/fetch-users-arp"
+            }
+        },
+        {
+            "FunctionName": "post-authentication-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:post-authentication-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/post-authentication-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-18T00:41:37.249+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "b823df74-be4b-4aed-8e1f-6611e3d79047",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/post-authentication-arp"
+            }
+        },
+        {
+            "FunctionName": "pre-token-generation-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:pre-token-generation-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/pre-token-generation-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-18T00:41:24.337+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "b1d0550a-4f95-46f4-921f-6455b7ca6612",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/pre-token-generation-arp"
+            }
+        },
+        {
+            "FunctionName": "pre-authentication-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:pre-authentication-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/pre-authentication-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-18T00:41:17.563+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "16af732f-6141-4ca8-a309-92fadaa911ff",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/pre-authentication-arp"
+            }
+        },
+        {
+            "FunctionName": "custom-message-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:custom-message-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/custom-message-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-18T00:41:43.796+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "ea4d807d-4a23-404c-a9b7-f6e9d6f33d63",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/custom-message-arp"
+            }
+        },
+        {
+            "FunctionName": "create-users-arp",
+            "FunctionArn": "arn:aws:lambda:us-east-1:448049794713:function:create-users-arp",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::448049794713:role/create-users-fn-role",
+            "Handler": "index.handler",
+            "CodeSize": 806,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2024-12-19T01:26:08.413+0000",
+            "CodeSha256": "DJOHfCoVqz3nBudo/0HhKmzqHslaNdZxWnTlnsmNOGw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "USERS_TABLE": "users-arp",
+                    "ENV": "develop"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "8409c269-427b-438e-bcf0-8a302f13ad75",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/create-users-arp"
+            }
+        }
+    ]
+}
