@@ -1,5 +1,5 @@
 {
-  "name": "create-users-arp",
+  "name": "pre-authentication-arp",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "description": ""
 }
