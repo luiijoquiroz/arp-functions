@@ -1,4 +1,4 @@
 create-users-arp:
-  - 'LambdaFunction1/**/*'
-LambdaFunction2:
-  - 'LambdaFunction2/**/*'
+  - 'lambdas/create-users-arp/**/*'
+custom-message-arp:
+  - 'lambdas/custom-message-arp/**/*'
