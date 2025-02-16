@@ -1,0 +1,4 @@
+create-users-arp:
+  - 'LambdaFunction1/**/*'
+LambdaFunction2:
+  - 'LambdaFunction2/**/*'
