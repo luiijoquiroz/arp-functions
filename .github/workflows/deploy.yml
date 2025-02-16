@@ -21,7 +21,7 @@ jobs:
     - uses: dorny/paths-filter@v2.2.1
       id: filter
       with:
-        filters: .github/filters.yaml
+        filters: .github/filters.yml
 
     - uses: blombard/lambda-monorepo@v0.1
       with:
